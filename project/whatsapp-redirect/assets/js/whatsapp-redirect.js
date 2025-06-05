@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
     const cities = {
-        'SP': ['São Paulo', 'Campinas', 'Santos', 'Ribeirão Preto', 'São José dos Campos'],
+        'SP': ['São Paulo', 'Vinhedo', 'Campinas', 'Santos', 'Ribeirão Preto', 'São José dos Campos'],
         'RJ': ['Rio de Janeiro', 'Niterói', 'São Gonçalo', 'Duque de Caxias'],
         'MG': ['Belo Horizonte', 'Uberlândia', 'Contagem', 'Juiz de Fora']
         // Add more cities as needed
@@ -8,8 +8,13 @@ jQuery(document).ready(function($) {
 
     const sellers = {
         'São Paulo': ['5511999999991', '5511999999992'],
-        'Rio de Janeiro': ['5521999999993', '5521999999994'],
+        'Rio de Janeiro': ['5521999999993', '5521999999994'],           
         'Belo Horizonte': ['5531999999995'],
+        'Campinas': ['5511999999996'],
+        'Ribeirão Preto': ['5511999999997'],
+        'São José dos Campos': ['5511999999998'],
+        'Vinhedo': ['5511999999999'],
+
         'default': '5500999999999'
     };
 
