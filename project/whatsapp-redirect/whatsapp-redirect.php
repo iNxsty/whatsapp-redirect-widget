@@ -3,7 +3,7 @@
  * Plugin Name: WhatsApp Redirect
  * Description: Widget Elementor para redirecionamento de WhatsApp baseado em localização
  * Version: 1.0.0
- * Author: Your Name
+ * Author: iNxyst
  */
 
 if (!defined('ABSPATH')) {
