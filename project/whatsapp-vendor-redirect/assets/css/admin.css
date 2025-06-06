@@ -1,0 +1,264 @@
+.wvr-admin-wrap {
+    background: #f1f1f1;
+    margin: 20px 0 0 -20px;
+    padding: 0;
+}
+
+.wvr-admin-container {
+    max-width: 1200px;
+    margin: 0;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.wvr-admin-header {
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+    color: #ffffff;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.wvr-admin-icon {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wvr-admin-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.wvr-admin-header p {
+    margin: 0.5rem 0 0 0;
+    opacity: 0.9;
+}
+
+.wvr-admin-section {
+    padding: 2rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.wvr-admin-section:last-child {
+    border-bottom: none;
+}
+
+.wvr-admin-section h3 {
+    margin: 0 0 1.5rem 0;
+    color: #374151;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* State Items */
+.wvr-state-item {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.wvr-state-header {
+    background: #ffffff;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wvr-state-header h4 {
+    margin: 0;
+    color: #374151;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.wvr-state-fields {
+    padding: 1rem 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+}
+
+.wvr-state-fields input {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 0.875rem;
+}
+
+.wvr-cities-container {
+    padding: 0 1.5rem 1.5rem;
+}
+
+.wvr-cities-container h5 {
+    margin: 0 0 1rem 0;
+    color: #6b7280;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.wvr-cities-list {
+    margin-bottom: 1rem;
+}
+
+.wvr-city-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr auto;
+    gap: 0.75rem;
+    align-items: center;
+    padding: 0.75rem;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.wvr-city-item input {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+.wvr-city-item input:focus {
+    outline: none;
+    border-color: #25D366;
+    box-shadow: 0 0 0 3px rgba(37, 211, 102, 0.1);
+}
+
+/* Buttons */
+.wvr-add-city,
+.wvr-remove-city,
+.wvr-remove-state {
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.wvr-add-city {
+    background: #25D366;
+    color: #ffffff;
+    border: none;
+}
+
+.wvr-add-city:hover {
+    background: #128C7E;
+}
+
+.wvr-remove-city,
+.wvr-remove-state {
+    background: #ef4444;
+    color: #ffffff;
+    border: none;
+}
+
+.wvr-remove-city:hover,
+.wvr-remove-state:hover {
+    background: #dc2626;
+}
+
+.wvr-add-state-section {
+    padding: 1.5rem;
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+}
+
+#wvr-add-state {
+    background: #6366f1;
+    color: #ffffff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+#wvr-add-state:hover {
+    background: #4f46e5;
+}
+
+/* Form submission */
+.submit {
+    padding: 2rem;
+    background: #f9fafb;
+    border-top: 1px solid #e5e7eb;
+    margin: 0;
+}
+
+.submit .button-primary {
+    background: #25D366;
+    border-color: #25D366;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.submit .button-primary:hover {
+    background: #128C7E;
+    border-color: #128C7E;
+}
+
+/* Loading state */
+.wvr-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+/* Success message */
+.wvr-success-message {
+    background: #d1fae5;
+    color: #065f46;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    border-left: 4px solid #10b981;
+}
+
+/* Error message */
+.wvr-error-message {
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    border-left: 4px solid #ef4444;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .wvr-admin-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .wvr-state-fields {
+        grid-template-columns: 1fr;
+    }
+    
+    .wvr-city-item {
+        grid-template-columns: 1fr;
+    }
+    
+    .wvr-state-header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+    }
+}
