@@ -77,9 +77,19 @@ ___
 == Screenshots ==
 
 1. Admin interface for managing states and cities
+___
+
 2. Elementor widget in the page builder
+___
+
 3. Frontend widget appearance
+![image](https://github.com/user-attachments/assets/e9e57106-bd5a-45fa-ab48-c976fea500bd)
+___
+
 4. Mobile responsive design
+
+![image](https://github.com/user-attachments/assets/f6f78632-ddae-4601-8998-1feae6793207)
+
 ___
 
 == Changelog ==
