@@ -78,13 +78,6 @@ class WhatsApp_Vendor_Redirect {
                     'Belo Horizonte' => ['5531999999991', '5531999999992'],
                     'Poços de Caldas' => '5535888888881'
                 ]
-            ],
-            'RJ' => [
-                'name' => 'Rio de Janeiro',
-                'cities' => [
-                    'Rio de Janeiro' => ['5521999999991', '5521999999992'],
-                    'Paraty' => '5524777777771'
-                ]
             ]
         ];
         
